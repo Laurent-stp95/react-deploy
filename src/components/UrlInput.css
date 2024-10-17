@@ -1,0 +1,20 @@
+.url-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .url-input.default {
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  
+  .url-input.focused {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
